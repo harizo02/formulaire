@@ -1,0 +1,70 @@
+ .logo {
+     display: flex;
+     align-items: center;
+     height: 25%;
+     width: 100%;
+ }
+ 
+ .logo img {
+     height: 20rem;
+     width: 20rem;
+ }
+ 
+ .droite {
+     position: relative;
+     float: right;
+ }
+ 
+ .corps {
+     display: block;
+ }
+ 
+ .TETE {
+     display: flex;
+     align-items: center;
+     background: rgb(113, 113, 199);
+ }
+ 
+ .contenu input[type="text"],
+ .contenu input[type="password"],
+ .contenu input[type="number"],
+ .contenu input[type="date"],
+ .contenu input[type="email"] {
+     border: 0;
+     background: none;
+     margin: 20px auto;
+     border: 2px solid black;
+     width: 250px;
+     color: black;
+     border-radius: 24px;
+     transition: 0.25s;
+ }
+ 
+ .contenu input[type="text"]:focus,
+ .contenu input[type="password"]:focus,
+ .contenu input[type="number"]:focus,
+ .contenu input[type="date"]:focus,
+ input[type="email"]:focus {
+     width: 280px;
+     border-color: aqua;
+ }
+ 
+ .contenu input[type="submit"] {
+     border: 0;
+     background: none;
+     display: block;
+     margin: 20px auto;
+     text-align: center;
+     border: 2px solid #13df3f;
+     padding: 10px 40px;
+     width: 150px;
+     outline: none;
+     color: black;
+     border-radius: 24px;
+     transition: 0.25s;
+     cursor: pointer;
+ }
+ 
+ .contenu input[type="submit"]:hover {
+     background-color: #13df3f;
+ }
